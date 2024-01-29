@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    /*if (5) {
+      console.log('truthy');
+    }*/
+  /*  if (0) {
+      console.log('truthy');//Falsy values:null,undefined,NaN,'',0,false
+    }
+    const cartQuantity = 5;
+
+    if (cartQuantity) {
+      console.log('cart has products');
+    }
+    console.log(!0);
+    console.log('text' / 5);
+    
+    let variable1;
+    console.log(variable1);
+
+    const variable2 = undefined;
+    console.log(variable2); */
+
+    //Ternary operator
+  const result =  true ? 'truthy' : 'falsy';
+  console.log(result);
+    // can be written also as
+    /* if (true) {
+      console.log('truthy');
+  } else{
+      console.log('falsy');
+     } */ 
+
+     //Guard Operator
+    false && console.log('hello');
+    //shortcut for if statement
+    const message = false && 'hello';
+    console.log(message);
+
+    //Default operator ||
+    const currency = 'EUR' || 'USD';
+    console.log(currency);
+
+    const currency1 = undefined || 'USD';
+    console.log(currency1);
+    //shortcut for IF statement
+    let currency2;
+     if (!currency2) {
+      currency2 = 'USD';
+     }
+  </script>
+  </script>
+
+</body>
+</html>
